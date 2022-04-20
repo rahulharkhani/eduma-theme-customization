@@ -1,0 +1,118 @@
+/*
+ Theme Name:   Eduma Child
+ Theme URI:    http://educationwp.thimpress.com/
+ Description:  Eduma Child Theme
+ Author:       ThimPress
+ Author URI:   http://thimpress.com
+ Template:     eduma
+ Version:      1.0.0
+ Text Domain:  eduma-child
+*/
+#respond.comment-respond .comment-notes {
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+.thim-ralated-course .related-title { margin: 48px 0 30px; }
+.loading { display: block !important; }
+#preload > .ctm-preload-img {
+	height: 60px;
+	width: 60px;
+}
+.ctm-archive-preload-img {
+	height: 40px;
+	width: 40px;
+}
+.site-content { padding: 30px 15px 30px; }
+#thim-popup-login .cssload-loading { text-align: center; }
+/*.ctm-profile-menu > a { color: #fff; }
+.ctm-profile-menu > a::after {
+	content: "\f078";
+	display: inline-block;
+	font-family: 'Font Awesome 5 Free';
+	padding: 0;
+	position: relative;
+	top: 0px;
+	right: -6px;
+	margin: 0;
+	line-height: 24px;
+	font-size: 11px;
+	font-weight: 900;
+}*/
+.ctm-profile-menu > a::after {
+	content: "\f078";
+	display: inline-block;
+	font-family: 'Font Awesome 5 Free';
+	padding: 0;
+	position: absolute;
+	top: 8px;
+	right: 4px;
+	margin: 0;
+	line-height: 24px;
+	font-size: 11px;
+	font-weight: 900;
+}
+.ctm-profile-menu > a {
+	color: #fff;
+	padding: 11px 20px 29px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+}
+.navigation .menu-right ul li{
+	position:relative;
+}
+.menu-right .ctm-profile-menu .sub-menu {
+	right: 0 !important;
+	left: unset !important;
+	box-shadow: 0 1px 5px -1px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 5px -1px rgba(0,0,0,0.3);
+	padding: 15px 30px;
+}
+#main-content {
+	position: relative;
+	z-index: 1;
+}
+.footer-bottom {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 0;
+}
+.ctm-title-bg-shadow .vc-hoverbox-front { box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 30%); }
+.ctm-title-bg-shadow .vc-hoverbox-front h2 {
+    background-color: rgb(34 31 31 / 50%);
+    color: #f69323;
+	font-size: 22px;
+	padding: 5px;
+}
+.ctm-title-bg-shadow .vc-hoverbox-back-inner h2 {
+	color : #ffffff;
+	font-size: 22px;
+}
+.ctm-title-bg-shadow .vc-hoverbox-back-inner p { color : #ffffff; }
+#courselearn .vc-hoverbox-block-inner > *{ backface-visibility: inherit; }
+.ctm-space-remove .sc_heading {
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ctm-title-size h4 { font-size: 30px; }
+.cool_timeline .img-circle {
+	width: 70px;
+	height: 70px;
+}
+.cool_timeline .timeline-main-title, .cool_timeline .timeline-year, .cool_timeline .timeline-meta { display: none; }
+body .cool_timeline.cool-timeline-wrapper { margin: 2em auto; }
+body .cool_timeline .cool-timeline .timeline-content > h2.content-title {
+	font-size: 28px!important;
+	padding-top: 10px !important;
+}
+.single-lp_course .dnone-ctm { display: none !important; }
+.navbar-nav li.pll-parent-menu-item .sub-menu {
+	min-width: auto;
+	padding: 5px 15px;
+}
+.navbar-nav li.pll-parent-menu-item .sub-menu li a { padding: 5px 0px !important; }
+.navbar-nav li.pll-parent-menu-item .sub-menu li img { margin-bottom: 0px; }
